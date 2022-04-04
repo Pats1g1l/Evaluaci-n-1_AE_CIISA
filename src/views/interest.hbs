@@ -1,0 +1,22 @@
+
+<section class="interest">
+  <h1 class="titulo">Calculador de intereses </h1>
+  <form action="/" method="post">
+    <div class="col-md-6 mb-3">
+      <label for="maths" class="form-label">Inversion</label>
+      <input type="number" class="form-control" name="invest" value="{{invest}}">
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="chemistry" class="form-label">Tasa de interes</label>
+      <input type="number" class="form-control" name="tax" value="{{tax}}">
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="physics" class="form-label">Años</label>
+      <input type="number" class="form-control" name="years" value="{{years}}">
+    </div>
+    <button type="submit" class="btn btn-primary">Calcular intereses </button>
+  </form>
+  
+
+    <p><span class="fw-bold">intereses: </span> {{result}} "$"</p>
+ 

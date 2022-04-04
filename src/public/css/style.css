@@ -1,0 +1,19 @@
+body {
+ background-color: rgb(16, 99, 214);
+
+}
+
+.interest {
+    width: 600px;
+    position: relative;
+    left: 100px;
+    right: 100x;
+    margin: 2px;
+    border-style: groove;
+    background-color: rgb(240, 196, 0);
+    top: 50px;
+    
+    
+    
+}
+
