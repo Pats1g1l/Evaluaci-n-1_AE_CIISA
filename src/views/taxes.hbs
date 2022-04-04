@@ -1,0 +1,25 @@
+<section class="taxes">
+  <br />
+  <h1>Calculadora de intereses bancarios</h1>
+  <form action="/tax" method="post">
+    <div class="col-md-6 mb-3">
+      <label for="maths" class="form-label">-Capital:</label>
+      <input
+        type="number"
+        class="form-control"
+        name="capital"
+        value="{{capital}}"
+      />
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="chemistry" class="form-label">-Tasa de interés</label>
+      <input type="number" class="form-control" name="tax" value="{{tax}}" />
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="physics" class="form-label">-Cantidad de Años</label>
+      <input type="number" class="form-control" name="term" value="{{term}}" />
+    </div>
+    <button type="submit" class="btn btn-primary">¡Calcular!</button>
+  </form>
+  <p><span class="fw-bold">Total: </span>{{total}}</p>
+</section>
